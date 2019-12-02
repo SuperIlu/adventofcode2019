@@ -38,8 +38,9 @@ var lastFuel = 0;
 function Setup() {
     SetFramerate(30);
     MouseShowCursor(false);
-    inFile = new File("examples/aoc2019/input", FILE.READ);
     max_lines = (SizeY() / 10) - 1;
+
+    inFile = new File("examples/aoc2019/day01/input", FILE.READ);
 }
 
 /*
